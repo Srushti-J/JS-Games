@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 20px;
+}
+.color{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+
+table,th,td{
+    border: 1px solid #e7e7e7;
+    height: 80%;
+    width: 300px;
+    text-align: center;
+}
